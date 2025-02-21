@@ -1,0 +1,17 @@
+.diagram-container {
+  width: 80%;
+  height: 800px;
+  flex-grow: 4;
+}
+.properties-container{
+  width: 20%;
+}
+
+.container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
