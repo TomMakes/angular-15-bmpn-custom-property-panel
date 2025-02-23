@@ -1,0 +1,39 @@
+:host {
+  position: relative;
+}
+.save-diagram-div {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  button {
+    mat-icon {
+      // transform: scale(2);
+    }
+  }
+}
+
+.diagram-container {
+  height: 500px;
+  width: 100%;
+}
+
+.properties-panel-parent {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #f5f5f5;
+  border-left: 1px solid #e0e0e0;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+// .canvas {
+//   height: 50%;
+//   width: calc(100% - 300px);
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   background-color: #f5f5f5;
+// }
