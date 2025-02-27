@@ -2,6 +2,7 @@
 // The entry is a text input field with logic attached to create,
 // update and delete the "spell" property.
 import customProperties from './properties/custom-properties';
+import CustomPalette from './palette/custom-palette';
 
 import { is } from 'bpmn-js/lib/util/ModelUtil';
 
@@ -73,6 +74,7 @@ function createCustomGroup(element, translate) {
 
 
 export default {
-  __init__: [ 'customPropertiesProvider' ],
-  customPropertiesProvider: [ 'type', CustomPropertiesProvider ]
+  __init__: [ 'customPropertiesProvider', 'customPalette' ],
+  customPropertiesProvider: [ 'type', CustomPropertiesProvider ],
+  customPalette: [ 'type', CustomPalette ]
 };
